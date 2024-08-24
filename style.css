@@ -1205,3 +1205,9 @@ p {
   margin-top: 10%;
 }
 
+@media (max-width: 768px) {
+  .page {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
