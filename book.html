@@ -20,7 +20,7 @@
     </div>
     <div class="instruction">Flip the page to read it</div>
     <div class="book">
-      <div class="page cover-front" onclick="movePage(this, 1)">
+      <div class="page cover-front" ontouchstart="movePage(this, 1)" onclick="movePage(this, 1)">
         <h1>Shreeya💕</h1>
         <img src="/IMG_5274.JPG" height="350" width="290" alt="">
         <div class="hat"><i class="fab fa-pied-piper-hat"></i></div>
@@ -30,8 +30,8 @@
         <br>
         <h2>@Meet</h2>
       </div>
-      <div class="page cover-front" onclick="movePage(this, 2)"></div>
-      <div class="page text-page" onclick="movePage(this, 3)">
+      <div class="page cover-front" ontouchstart="movePage(this, 2)" onclick="movePage(this, 2)"></div>
+      <div class="page text-page" ontouchstart="movePage(this, 3)" onclick="movePage(this, 3)">
         <p>Shree, this is for you 🤞</p>
         <p>
           "Every moment spent with you feels like <br>
@@ -53,7 +53,7 @@
         <br /><br /><br />
         
       </div>
-      <div class="page text-page" onclick="movePage(this, 4)">
+      <div class="page text-page" ontouchstart="movePage(this, 4)" onclick="movePage(this, 4)">
         <p>
           tera meri life mai aana or aake aise bass jana <br>
           you know what whenever you are with me it always feels special <br>
@@ -73,7 +73,7 @@
        
         
       </div>
-      <div class="page text-page" onclick="movePage(this, 5)">
+      <div class="page text-page" ontouchstart="movePage(this, 5)" onclick="movePage(this, 5)">
         <p>
           There is something I have written for you <br>
           <br>
@@ -101,7 +101,7 @@
          You are the best gift I have got till date😭🤞
         </p>
       </div>
-      <div class="page text-page" onclick="movePage(this, 6)">
+      <div class="page text-page" ontouchstart="movePage(this, 6)" onclick="movePage(this, 6)">
         <p>
          I looooooooooooovvvvvvvvvvveeeeeeeeeeeee youuu so much Shreeya
          <br>
@@ -229,7 +229,7 @@
     </div>
 
     <script>
-      document.getElementById("botao1").addEventListener("click", function () {
+      document.getElementById("botao1").addEventListener("touchstart", function () {
         alert("you're always in my heart Shreeya , Drop a Message when you are Free .");
       });
     </script>
