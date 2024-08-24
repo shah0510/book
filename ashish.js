@@ -19,3 +19,4 @@ function movePage(e, page) {
     toggleClass(e.previousElementSibling, "left-side");
   }
 }
+
