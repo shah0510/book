@@ -57,10 +57,11 @@
   }
 
   .page {
+    position: relative;
     width: 100%;
     height: auto;
     padding: 20px;
-    /* Add any animations or flipping styles you want */
-    transition: transform 0.5s ease-in-out;
+    /* Make sure the page is clickable */
+    pointer-events: auto;
+    z-index: 1; /* Ensure the page is on top */
   }
-
